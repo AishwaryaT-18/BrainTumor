@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Brain Tumor Detection Result</title>
+</head>
+<body>
+    <h1>Brain Tumor Detection Result</h1>
+    <h2>Detected Tumor Type: {{ tumor_type }}</h2>
+    <h3>Detected Tumor Region: {{ detection_region }}</h3>
+    {% if result_image %}
+    <h4>Processed Image:</h4>
+    <img src="data:image/jpeg;base64,{{ result_image }}" alt="Processed Image">
+    {% endif %}
+</body>
+</html>

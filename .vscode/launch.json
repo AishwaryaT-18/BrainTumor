@@ -1,0 +1,15 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open home.html",
+            "file": "c:\\Users\\aishw\\Downloads\\Brain_Tumor_Detection_website1-main (3)\\Brain_Tumor_Detection_website1-main (2)\\Brain_Tumor_Detection_website1-main\\templates\\home.html"
+        }
+    ]
+}
