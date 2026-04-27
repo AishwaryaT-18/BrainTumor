@@ -21,7 +21,7 @@ The model is trained on labeled MRI image data and integrated with a Flask web a
 
 ## Tech Stack
 - Python  
-- Scikit-learn (Logistic Regression, SVM)  
+- Logistic Regression, SVM (for classification) 
 - Flask (for web application)  
 - NumPy, Pandas  
 - OpenCV (image processing)  
@@ -45,7 +45,7 @@ The model is trained on labeled MRI image data and integrated with a Flask web a
 
 ### 3. Open in browser
 
-Upload an MRI image and view the prediction result.
+### 4. Upload an MRI image and view the prediction result.
 
 ---
 
